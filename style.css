@@ -1,0 +1,101 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(bg2.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Carter One', cursive;;
+}
+
+.box{
+   width: 400px;
+   height: 420px;
+   color: black;
+   top: 50%;
+   left: 50%;
+   padding: 60px 30px;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   box-sizing: border-box;
+   box-shadow: 8px 8px 50px black;
+   text-align: center;
+
+}
+
+.box:hover{
+     box-shadow: 10px 10px 60px black;
+}
+
+
+h1{
+    margin-left: 75px;
+    text-align: center;
+    width: 200px;
+    font-size: 40px;
+    border-bottom: 6px solid black;
+    margin-bottom: 50px;
+    margin-top: -5%;
+    
+}
+
+.stl{
+    height: 35px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background: none;
+}
+
+#btn{
+    box-sizing: border-box;
+    border-radius: 20px;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.lnk{
+    margin-top: 40px;
+    letter-spacing: 30px;
+    margin-left: 30px;
+}
+
+#clr1{
+    color: black;
+}
+#clr2{
+    color: black;
+}
+#clr3{
+    color: black;
+}
+#clr1:hover{
+    color: blue
+}
+#clr2:hover{
+    color: skyblue
+}
+#clr3:hover{
+    color: red
+}
+
+p{
+    margin-top: 75px;
+    word-spacing: 20px;
+}
+
+.rmbr{
+    margin-right: 105px;   
+}
+
+.rmbr p{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    word-spacing: 2px;
+}
